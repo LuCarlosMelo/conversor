@@ -1,3 +1,6 @@
+import java.awt.Frame;
+
+import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
 public class Program {
@@ -15,8 +18,12 @@ public class Program {
 			JOptionPane.showInputDialog(null, "Escolha a moeda para qual deseja converter:","Menu",JOptionPane.INFORMATION_MESSAGE,null, coinOption,coinOption[0]);
 		}
 		
+		Object inputValue = JOptionPane.showInputDialog("Insira um valor: ");
 		
+		JFrame frame = new JFrame("Alow");
 		
+		Object outValue = JOptionPane.showMessageDialog(frame, "Puts");
+		System.exit(0);
 	}
 
 }
