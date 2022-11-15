@@ -21,10 +21,10 @@ public class Coin {
 		this.won = won;
 	}
 
-
 	public Double getDolar() {
 		return dolar;
 	}
+
 	public void setDolar(Double dolar) {
 		this.dolar = dolar;
 	}
@@ -32,6 +32,7 @@ public class Coin {
 	public Double getEuro() {
 		return euro;
 	}
+
 	public void setEuro(Double euro) {
 		this.euro = euro;
 	}
@@ -39,6 +40,7 @@ public class Coin {
 	public Double getLibras() {
 		return libras;
 	}
+
 	public void setLibras(Double libras) {
 		this.libras = libras;
 	}
@@ -46,17 +48,19 @@ public class Coin {
 	public Double getYene() {
 		return yene;
 	}
+
 	public void setYene(Double yene) {
 		this.yene = yene;
 	}
-	
+
 	public Double getWon() {
 		return won;
 	}
+
 	public void setWon(Double won) {
 		this.won = won;
 	}
-	
+
 	public double converterCoin(Object value, Double inputValue) {
 		if (value == "De Reais a Dolares") {
 			return inputValue /= dolar;
